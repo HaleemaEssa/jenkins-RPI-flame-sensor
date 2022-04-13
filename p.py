@@ -6,7 +6,6 @@ import os
 ####flame-sensor ###
 import adafruit_dht
 from board import *
-SENSOR_PIN = D5
 #GPIO SETUP
 channel12 =12 #for flame
 GPIO.setmode(GPIO.BCM)  
