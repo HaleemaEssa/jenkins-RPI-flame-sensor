@@ -37,8 +37,6 @@ def checkdht():
         except RuntimeError:
             pass
         time.sleep(5)
-
 while True:
     checkdht()
-
 connection.close()
